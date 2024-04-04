@@ -23,6 +23,7 @@ int main(){
 	MyClass myObj;
 	myObj.x = 25;
 	myObj.setY(50);
-	cout<< myObj.getY();
+	cout << "Este es x = " << myObj.x << endl;
+	cout << "Este es y = " << myObj.getY() << endl;
 	return 0;
 }
